@@ -2,7 +2,8 @@
 
 #### What is this ?
 
-Toy Robot is a ruby coding exercise that we get our potential candidates  complete for us (Mable) to understand their capabilities.  
+Toy Robot is a ruby coding exercise that we get our potential candidates to complete 
+for us (Mable) to understand their capabilities.  
 
 #### What do I need to do ?
 
@@ -79,7 +80,7 @@ Output: `3,3,NORTH`
 
 #### Why am I doing this ?
 
-At Mable we belive these kind of coding challenges will give us more visibility on the candidate's strengths. On the other have, candidates can show their 
+At Mable we believe these kind of coding challenges will give us more visibility on the candidate's strengths. On the other hand, candidates can show their 
 capabilities by applying what they already know. 
 
 #### What’s next ?
@@ -91,7 +92,7 @@ capabilities by applying what they already know.
 
 #### What do We expect as deliveries?
 
-While we love to see a working code, the most important aspects we are looking in to is, 
+While we love to see a working code, the most important aspects we are looking into are: 
 
 - How you would approach a problem 
 - How you approach around testing 
@@ -110,4 +111,19 @@ In Fact the author of this test himself has described, why this test is still re
 
 [Toy Robot Coding Puzzle](https://joneaves.wordpress.com/2014/07/21/toy-robot-coding-test/)
 
-All the very best !!!
+All the very best!!!
+
+
+## Run this
+
+### Install this
+
+- Git clone this repo into the folder of your choice, then `cd` to it
+- install Ruby 2.7.3 using the version manager of your choice (I'm partial to rbenv, but you can use what you like). `rbenv install 2.7.3`, `rbenv local 2.7.3`.
+- Install Rubygems if you haven't already. It's a per-OS thing, so you may need to look up your OS's install instructions. I like MacOS (with Homebrew): `brew install rubygems`
+- Install Bundler: `gem install bundler`
+- Install this repo's gems: `bundle install`. We're using only test-unit, so it's just that and nothing else.
+
+### Test this
+
+- `ruby test/robot_test.rb`. Done.
